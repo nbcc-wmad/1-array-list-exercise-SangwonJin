@@ -36,6 +36,7 @@ namespace ArrayListSimpleEx
             {
                 sentence.Reverse();
             }
+            isReverse = false;
             Display();
         }
 
@@ -47,9 +48,13 @@ namespace ArrayListSimpleEx
 
         private void btnReverse_Click(object sender, EventArgs e)
         {
-            sentence.Reverse();
-            Display();
+            if (isReverse == false)
+            {
+                sentence.Reverse();
+            }
             isReverse = true;
+            Display();
+            
             
         }
 
