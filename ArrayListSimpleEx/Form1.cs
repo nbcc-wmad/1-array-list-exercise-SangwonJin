@@ -37,7 +37,9 @@ namespace ArrayListSimpleEx
                 sentence.Reverse();
             }
             isReverse = false;
-            Display();
+            Display(); 
+
+
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
