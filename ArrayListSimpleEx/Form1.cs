@@ -38,8 +38,6 @@ namespace ArrayListSimpleEx
             }
             isReverse = false;
             Display();
-            
-
         }
 
         private void btnAdd_Click(object sender, EventArgs e)
